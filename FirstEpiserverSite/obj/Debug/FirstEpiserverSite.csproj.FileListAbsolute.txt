@@ -75,7 +75,6 @@ C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin\System.Web.WebPages.xml
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin\System.Web.WebPages.Deployment.xml
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin\System.Web.WebPages.Razor.xml
-C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\obj\Debug\FirstEpiserverSite.csprojAssemblyReference.cache
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\obj\Debug\FirstEpiserverSite.csproj.CopyComplete
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\obj\Debug\FirstEpiserverSite.dll
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\obj\Debug\FirstEpiserverSite.pdb

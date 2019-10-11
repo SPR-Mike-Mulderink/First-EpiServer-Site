@@ -11,9 +11,9 @@ namespace FirstEpiserverSite.Controllers
     public class StartPageController : PageController<StartPage>
     {
         // GET: StartPage
-        public ActionResult Index(StartPage currenyPage)
+        public ActionResult Index(StartPage currentPage)
         {
-            return View();
+            return View(currentPage);
         }
     }
 }

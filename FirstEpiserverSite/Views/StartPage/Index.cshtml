@@ -1,11 +1,15 @@
-﻿@model  FirstEpiserverSite.Models.Pages.StartPage
+﻿@model FirstEpiserverSite.Models.Pages.StartPage
 
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_root.cshtml";
 }
 
 <div class="row">
     <div class="jumbotron">
-        <h1>Hello World this is Mike's First EpiServer Site!!!</h1>
+        <div class="container">
+            <h1>@Html.PropertyFor(x => x.Heading)</h1>
+            <p>@Html.PropertyFor(x => x.MainBody)</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
     </div>
 </div>
