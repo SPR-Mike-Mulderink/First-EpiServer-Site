@@ -83,3 +83,4 @@ C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin\WebGrease.dll
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin\Antlr3.Runtime.pdb
 C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\bin\System.Web.Optimization.xml
+C:\Users\michaelmulderink\source\repos\FirstEpiserverSite\FirstEpiserverSite\obj\Debug\FirstEpiserverSite.csprojAssemblyReference.cache

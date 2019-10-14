@@ -12,5 +12,6 @@ namespace FirstEpiserverSite.Models.Pages
     {
         public virtual string Heading { get; set; }
         public virtual XhtmlString MainBody { get; set; }
+        public virtual ContentArea MainContentArea { get; set; }
     }
 }
