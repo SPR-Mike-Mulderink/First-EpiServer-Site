@@ -4,9 +4,9 @@ using EPiServer.Web.Mvc;
 
 namespace FirstEpiserverSite.Controllers
 {
-    public class JumbotronBlockController : BlockController<JumbotronBlock>
+    public class FamousAmosStartPageBlockController : BlockController<FamousAmosStartPageBlock>
     {
-        public override ActionResult Index(JumbotronBlock currentblock)
+        public override ActionResult Index(FamousAmosStartPageBlock currentblock)
         {
             return PartialView(currentblock);
         }

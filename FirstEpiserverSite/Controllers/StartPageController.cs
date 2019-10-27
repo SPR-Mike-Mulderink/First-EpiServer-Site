@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using FirstEpiserverSite.Models.Pages;
-using FirstEpiserverSite.ViewModels.Pages;
 using EPiServer.Web.Mvc;
 
 namespace FirstEpiserverSite.Controllers

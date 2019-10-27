@@ -11,7 +11,7 @@ namespace FirstEpiserverSite.Models.Blocks
         DisplayName = "Jumbotron",
         Description = "Jumbotron blocktype with header, description, image and button")]
     [ImageUrl("~/Source/repo/FirstEpiserverSite/FirstEpiserverSite/Assets/Images")]
-    public class JumbotronBlock : BlockData
+    public class FamousAmosStartPageBlock : BlockData
     {
         [Display(
             Name = "Brand logo",
