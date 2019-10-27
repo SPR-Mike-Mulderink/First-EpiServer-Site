@@ -14,43 +14,35 @@ namespace FirstEpiserverSite.Models.Blocks
     public class JumbotronBlock : BlockData
     {
         [Display(
-            Name = "Header",
-            Description = "Enter a header for the block",
+            Name = "Brand logo",
+            Description = "Add a brand logo",
             GroupName = SystemTabNames.Content,
-            Order = 1)]
+            Order = 100)]
         [Required]
-        public virtual string Header { get; set; }
+        public virtual Url brandLogo { get; set; }
 
         [Display(
-            Name = "Description",
-            Description = "Enter a Description for the block",
+            Name = "Brand name",
+            Description = "Enter a brand name",
             GroupName = SystemTabNames.Content,
-            Order = 2)]
+            Order = 200)]
         [Required]
-        public virtual XhtmlString Description { get; set; }
+        public virtual string brandName { get; set; }
 
         [Display(
-            Name = "Image",
-            Description = "Chose a image for the block",
+            Name = "Brand description",
+            Description = "Enter a brand description",
             GroupName = SystemTabNames.Content,
-            Order = 3)]
+            Order = 300)]
         [Required]
-        public virtual Url Image { get; set; }
+        public virtual XhtmlString brandDescription { get; set; }
 
         [Display(
-            Name = "Button label",
-            Description = "Enter a label for the button",
+            Name = "Brand image",
+            Description = "Add a brand image",
             GroupName = SystemTabNames.Content,
-            Order = 4)]
+            Order = 400)]
         [Required]
-        public virtual string Button { get; set; }
-
-        [Display(
-            Name = "Url",
-            Description = "Enter a Url for the button",
-            GroupName = SystemTabNames.Content,
-            Order = 5)]
-        [Required]
-        public virtual Url Url { get; set; }
+        public virtual Url brandImage { get; set; }
     }
 }
